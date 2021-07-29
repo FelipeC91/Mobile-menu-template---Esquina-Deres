@@ -1,8 +1,8 @@
-# Mobile menu para o estabelecimento comercial Deres Picanharia
+# Mobile menu para o estabelecimento comercial Esquina Deres
 
 ### Sobre o projeto
 
-Template contruido em Vanilla JS e CSS puro para menu interativo web do restaurante/bar **Deres Picanharia** - instagram [@Derespicanharia](https://www.instagram.com/derespicanharia/).
+Template contruído em Vanilla JS e CSS puro para menu interativo web do restaurante/bar **Esquina Deres** - instagram [@esquinaderes](https://www.instagram.com/esquinaderes/).
 
 
 ### Screenshots
