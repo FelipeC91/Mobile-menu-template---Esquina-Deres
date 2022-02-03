@@ -1,120 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-    <div class="main-content__logo">
-        <img src="assets/img/logo.png" class="main-content__img"/>
-    </div>
-    <main class="main-content">
-        <div class="section">
-            <h2 class="section__title" id="section__title">Sessões</h2>
-
-            <ul class="section__list">
-                <li class="section__subtitle">R$</li>
-
-                <li class="section__list-item">
-                    <div class="item-info">
-                        <div class="item-info__title">
-                            Bife a Cavalo
-                            <span class="item-info__time">
-                                <svg class="item-info__time__logo">
-                                    <use xlink:href="assets/img/sprite.svg#icon-clock"></use>
-                                </svg>
-                                <span class="item-info__time__minuts">20 min.</span>
-                            </span>
-                        </div>
-                        <div class="item-description">arroz, feijão, farofa, fritas e ovo</div>
-                    </div>
-
-                    <div class="item-price">18 <span class="item-price--decimal">,90</span></div>
-                </li>
-
-                <li class="section__list-item">
-                    <div class="item-info">
-                        <div class="item-info__title">Bife a Cavalo</div>
-                        <div class="item-description">arroz, feijão, farofa, fritas e ovo</div>
-                    </div>
-
-                    <div class="item-price">18 <span class="item-price--decimal">,90</span></div>
-                </li>
-
-                <li class="section__list-item">
-                    <div class="item-info">
-                        <div class="item-info__title">Bife a Cavalo</div>
-                        <div class="item-description">arroz, feijão, farofa, fritas e ovo</div>
-                    </div>
-
-                    <div class="item-price">18 <span class="item-price--decimal">,90</span></div>
-                </li>
-
-                <li class="section__list-item">
-                    <div class="item-info">
-                        <div class="item-info__title">Bife a Cavalo</div>
-                        <div class="item-description">arroz, feijão, farofa, fritas e ovo</div>
-                    </div>
-
-                    <div class="item-price">18 <span class="item-price--decimal">,90</span></div>
-                </li>
-
-                <li class="section__list-item">
-                    <div class="item-info">
-                        <div class="item-info__title">Bife a Cavalo</div>
-                        <div class="item-description">arroz, feijão, farofa, fritas e ovo</div>
-                    </div>
-
-                    <div class="item-price">18 <span class="item-price--decimal">,90</span></div>
-                </li>
-
-                <li class="section__list-item">
-                    <div class="item-info">
-                        <div class="item-info__title">Bife a Cavalo</div>
-                        <div class="item-description">arroz, feijão, farofa, fritas e ovo</div>
-                    </div>
-
-                    <div class="item-price">18 <span class="item-price--decimal">,90</span></div>
-                </li>
-
-                <li class="section__list-item">
-                    <div class="item-info">
-                        <div class="item-info__title">Bife a Cavalo</div>
-                        <div class="item-description">arroz, feijão, farofa, fritas e ovo</div>
-                    </div>
-
-                    <div class="item-price">18 <span class="item-price--decimal">,90</span></div>
-                </li>
-
-            </ul>
-        </div>
-
-    </main>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <nav class="section-menu">
-        <svg class="section-menu__icon">
-            <use xlink:href="assets/img/sprite.svg#icon-menu"></use>
-        </svg>
+      <svg class="section-menu__icon">
+        <use xlink:href="assets/img/sprite.svg#icon-menu"></use>
+      </svg>
 
-        <ul class="menu">
-            <li class="menu__section">
-                <h1 class="menu__title">Sessões</h1>
-            </li>
-            <li class="menu__section section-target">Pratos Feitos</li>
-            <li class="menu__section section-target">Pratos para 2</li>
-            <li class="menu__section section-target">Bebidas</li>
-     
-        </ul>
+      <ul class="menu">
+        <li class="menu__section">
+          <h1 class="menu__title">Sessões</h1>
+        </li>
+        <li
+          class="menu__section-title section-target"
+          data-function-name="pratosIndividuais"
+        >
+          Pratos Individuais
+        </li>
+        <li
+          class="menu__section-title section-target"
+          data-function-name="pratosPara2"
+        >
+          Pratos Para 2
+        </li>
+        <li
+          class="menu__section-title section-target"
+          data-function-name="porcoesTradicionais"
+        >
+          Porções Tradicionais
+        </li>
+        <li
+          class="menu__section-title section-target"
+          data-function-name="porcoesNaBrasa"
+        >
+          Porções Na Brasa
+        </li>
 
+        <li
+          class="menu__section-title section-target"
+          data-function-name="bebidasNaoAlcoolicas"
+        >
+          Bebidas Não-Alcoolicas
+        </li>
+        <li
+          class="menu__section-title section-target"
+          data-function-name="cervejas"
+        >
+          Cervejas
+        </li>
+        <li
+          class="menu__section-title section-target"
+          data-function-name="caipirinhas"
+        >
+          Caipirinhas
+        </li>
+        <li
+          class="menu__section-title section-target"
+          data-function-name="drinks"
+        >
+          Drinks
+        </li>
+
+        <li
+          class="menu__section-title section-target"
+          data-function-name="doses"
+        >
+          Doses
+        </li>
+      </ul>
     </nav>
+    <a class="main-content__logo" id="section__title">
+      <img src="assets/img/logo.png" class="main-content__img" />
+    </a>
+    <main class="main-content">
+      <div class="section">
+        <h2 class="section__title" id="section__title">Sessões</h2>
 
-    <a href="#section__title">
-        <svg class="section-menu__float-icon">
-            <use xlink:href="assets/img/sprite.svg#icon-arrow-bold-up"></use>
-        </svg>
+        <ul class="section__list" id="section-removable">
+          <li class="section__subtitle">R$</li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">
+                Picadinho
+                <span class="item-info__time">
+                  <svg class="item-info__time__logo">
+                    <use xlink:href="assets/img/sprite.svg#icon-clock"></use>
+                  </svg>
+                  <span class="item-info__time__minuts">20 min.</span>
+                </span>
+              </div>
+              <div class="item-description">arroz, feijão, farofa</div>
+            </div>
+
+            <div class="item-price">
+              18 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Frango ao molho</div>
+              <div class="item-description">arroz, feijão, farofa</div>
+            </div>
+
+            <div class="item-price">
+              17 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Contra filé a Cavalo</div>
+              <div class="item-description">
+                arroz, feijão, farofa, fritas, vinagrete e ovo
+              </div>
+            </div>
+
+            <div class="item-price">
+              27 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Bife a Cavalo</div>
+              <div class="item-description">
+                arroz, feijão, farofa, fritas e ovo
+              </div>
+            </div>
+
+            <div class="item-price">
+              18 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Bife à Milanesa</div>
+              <div class="item-description">arroz, feijão, farofa, fritas</div>
+            </div>
+
+            <div class="item-price">
+              19 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Bife acebolado</div>
+              <div class="item-description">arroz, feijão, farofa, fritas</div>
+            </div>
+
+            <div class="item-price">
+              18 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Filé de frango</div>
+              <div class="item-description">arroz, feijão, farofa, fritas</div>
+            </div>
+
+            <div class="item-price">
+              17 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Contra Filé Grelhado</div>
+              <div class="item-description">
+                arroz, feijão, farofa, fritas e vinagrete
+              </div>
+            </div>
+
+            <div class="item-price">
+              26 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Churrasco Misto</div>
+              <div class="item-description">arroz, feijão, farofa e fritas</div>
+            </div>
+
+            <div class="item-price">
+              24 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Omelete</div>
+              <div class="item-description">arroz, feijão, farofa e fritas</div>
+            </div>
+
+            <div class="item-price">
+              17 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Macarrão Alho e Óleo</div>
+              <div class="item-description">filé de frango</div>
+            </div>
+
+            <div class="item-price">
+              16 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Costela Bovina</div>
+              <div class="item-description">arroz, feijão, farofa e fritas</div>
+            </div>
+
+            <div class="item-price">
+              27 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Picanha À Brasileira</div>
+              <div class="item-description">
+                arroz, feijão, farofa, fritas e vinagrete
+              </div>
+            </div>
+
+            <div class="item-price">
+              49 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Cupim</div>
+              <div class="item-description">
+                arroz, feijão, farofa, fritas e vinagrete
+              </div>
+            </div>
+
+            <div class="item-price">
+              34 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+
+          <li class="section__list-item">
+            <div class="item-info">
+              <div class="item-info__title">Filé de merluza</div>
+              <div class="item-description">arroz, feijão e purê</div>
+            </div>
+
+            <div class="item-price">
+              17 <span class="item-price--decimal">,90</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <a href="#top">
+      <svg class="section-menu__float-icon">
+        <use xlink:href="assets/img/sprite.svg#icon-arrow-bold-up"></use>
+      </svg>
     </a>
     <script type="module" src="js/index.js"></script>
-</body>
+  </body>
 </html>
