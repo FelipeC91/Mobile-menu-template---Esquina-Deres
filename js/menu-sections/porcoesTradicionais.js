@@ -114,7 +114,7 @@ const porcoesTradicionais = `<ul class="section__list" id="section-removable">
   <li class="section__list-item">
     <div class="item-info">
       <div class="item-info__title">Frios</div>
-      <div class="item-description"></div>
+      <div class="item-description">salame, presunto, queijos e azeitonas</div>
 
     </div>
 

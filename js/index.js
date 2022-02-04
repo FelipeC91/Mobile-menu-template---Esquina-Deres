@@ -22,7 +22,6 @@ const hideMenu = () => {
   }
 
   elements.sectionMenu.style.width = "15vw";
-  // elements.sectionMenu.style.overflow = "hidden";
 
   elements.sectionMenuIcon.style.transitionDuration = "1s";
   elements.sectionMenuIcon.style.opacity = "0.6";
@@ -32,8 +31,6 @@ const hideMenu = () => {
 };
 
 const showMenu = () => {
-  // elements.sectionMenu.style.overflow = "scroll";
-
   elements.sectionMenu.style.width = "80vw";
 
   elements.sectionMenuIcon.style.opacity = "0";
