@@ -42,7 +42,7 @@ const showMenu = () => {
   const childs = elements.menu.querySelectorAll(".menu > *");
 
   for (let i = 0; i < childs.length; i++) {
-    childs[i].style.animation = `slidein .${i + 2}s ease-in-out`;
+    childs[i].style.animation = `slidein .${i + 3}s ease-in-out`;
     childs[i].style.animationFillMode = "forwards";
   }
 };

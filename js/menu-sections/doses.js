@@ -28,7 +28,7 @@ const doses = `
     </div>
 
     <div class="item-price">
-      30 <span class="item-price--decimal">,90</span>
+      30 <span class="item-price--decimal">,00</span>
     </div>
   </li>
 
@@ -47,7 +47,7 @@ const doses = `
       <div class="item-info__title">Black Label</div>
     </div>
 
-    <div class="item-price">35 <span class="item-price--decimal">90</span></div>
+    <div class="item-price">35 <span class="item-price--decimal">00</span></div>
   </li>
 
   <li class="section__list-item">
@@ -112,7 +112,7 @@ const doses = `
     </div>
 
     <div class="item-price">
-      30 <span class="item-price--decimal">,00</span>
+      35 <span class="item-price--decimal">,00</span>
     </div>
   </li>
 
