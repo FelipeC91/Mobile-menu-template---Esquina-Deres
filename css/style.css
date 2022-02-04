@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lobster&display=swap");
 :root {
-  --color-primary: #ebd3a6;
+  --color-primary: #d7ac73;
   --color-primary-light: rgb(48, 46, 46);
   --color-primary-dark: #000;
 }
@@ -50,8 +50,8 @@ body {
   position: fixed;
   top: 0px;
   right: 0px;
-  background-color: #bb9e67;
-  /* background-image: linear-gradient(to left bottom, #ad7a3c, #d7ac73); */
+  /* background-color: #bb9e67; */
+  background-image: linear-gradient(to right top, #a57437, #dab27a);
   width: 80vw;
   height: 120vh;
 
@@ -105,7 +105,7 @@ body {
 }
 
 .section__subtitle {
-  color: #caa773;
+  color: #d7ac73;
   font-size: 2rem;
   padding-left: 87%;
 }
@@ -176,13 +176,13 @@ body {
 }
 
 .item-info__time__logo {
-  fill: #caa773;
+  fill: #d7ac73;
   width: 2rem;
   height: 2rem;
 }
 
 .item-info__time__minuts {
-  color: #caa773;
+  color: #d7ac73;
   font-size: 1rem;
 }
 
@@ -324,13 +324,13 @@ body {
 }
 
 .item-info__time__logo {
-  fill: #caa773;
+  fill: #d7ac73;
   width: 2rem;
   height: 2rem;
 }
 
 .item-info__time__minuts {
-  color: #caa773;
+  color: #d7ac73;
   font-size: 1rem;
 }
 
