@@ -21,6 +21,7 @@ const hideMenu = () => {
     childs[i].style.animationFillMode = "forwards";
   }
 
+  elements.logoImg.style.paddingLeft = "2vh";
   elements.sectionMenu.style.width = "15vw";
 
   elements.sectionMenuIcon.style.transitionDuration = "1s";
