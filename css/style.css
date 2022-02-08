@@ -419,6 +419,10 @@ body {
 }
 
 @media only screen and (max-width: 31.25em) {
+  .section__title {
+    margin-top: 10vh;
+  }
+
   .item-info__title {
     font-size: 2.5rem;
   }
