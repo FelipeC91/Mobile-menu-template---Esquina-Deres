@@ -5,7 +5,7 @@ const toggleMenu = (e) => {
   elements.sectionMenuIcon.style.transitionDuration = ".2s";
 
   showMenu();
-  elements.logoImg.style.width = "20vw";
+  elements.logoImg.style.width = "14vw";
 
   elements.section.style.animation = `slideLeft 550ms ease-out`;
   elements.section.style.animationFillMode = "forwards";
@@ -21,7 +21,6 @@ const hideMenu = () => {
     childs[i].style.animationFillMode = "forwards";
   }
 
-  elements.logoImg.style.paddingLeft = "2vh";
   elements.sectionMenu.style.width = "15vw";
 
   elements.sectionMenuIcon.style.transitionDuration = "1s";

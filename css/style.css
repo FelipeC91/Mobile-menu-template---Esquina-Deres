@@ -61,12 +61,12 @@ body {
 }
 
 .main-content__logo img {
-  width: 20vw;
+  width: 14vw;
   transition: all 1s ease-out;
 }
 .main-content__logo {
   margin-top: 2rem;
-  /* margin-left: 2vw; */
+  margin-left: 3vw;
 
   height: 10vh;
 }
@@ -402,7 +402,7 @@ body {
   }
 
   to {
-    transform: translateX(-82vw);
+    transform: translateX(-84vw);
     animation-fill-mode: forwards;
   }
 }
@@ -420,7 +420,7 @@ body {
 
 @media only screen and (max-width: 31.25em) {
   .section__title {
-    margin-top: 10vh;
+    margin-top: 18vh;
   }
 
   .item-info__title {
